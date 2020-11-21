@@ -1,0 +1,44 @@
+$fontStack: Roboto
+$errorColor: red
+$border: groove #69F0AE
+
+body 
+  background: #0000
+  font: 100% $fontStack
+  .h1
+    text-align: center
+    font: 300% $fontStack   
+
+.form
+    background: #B9F6CA
+    margin: auto
+    padding-top: 1%
+    width: 50%
+    border: $border
+    border-radius: 10px
+    .field
+        font: $fontStack
+        margin-bottom: 1%
+        margin-left: 20%
+        margin-right: 20%
+        span:not(.gender)
+            margin-left: 20px   
+        label
+            float: left
+            margin-right: 15px
+    .createButton
+        display: block
+        position: relative
+        text-align: center   
+        button
+            margin-top: 10px
+            font-size: 30px
+            line-height: 30px
+            letter-spacing: 0.5px
+            text-transform: uppercase
+            border: $border
+            border-radius: 10px    
+.errorMessage
+    margin-left: 15px
+    font: $fontStack 
+    color: $errorColor

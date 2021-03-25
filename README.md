@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # clients-form
 
 ## Project setup
